@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link href="./css/bootstrap.css" rel="stylesheet">
+    <link href="./css/all.css" rel="stylesheet">
+    <link href="./css/stylesheet.css" rel="stylesheet">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Management</title>
+</head>
+<body>
+    <a href="#" class="goTop">
+        <i class="fas fa-chevron-up"></i>
+    </a>
+    <div class="overlay" id="popup2">
+        <div class="popup2">
+            <h3>Sign Up</h3>
+            <p id="close2">&#10005;</p>
+            <form id="form2">
+                <input type="text" placeholder="First Name" id="firstName1">
+                <input type="text" placeholder="Last Name" id="lastName1">
+                <input type="text" placeholder="Email Address" id="email1">
+                <input type="password" placeholder="Password" id="password1">
+                <input type="password" placeholder="Confirm Password" id="confirmPassword1">
+                <input type="submit" value="Sign Up">
+            </form>
+        </div>
+    </div>
+    <div class="container-fluid  header">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-10 col01">
+                    <i class="fas fa-envelope"></i>
+                    <p class="p1">customercare@traveltriangle.com</p>
+                    <i class="fas fa-phone"></i>     
+                    <p class="p2">111-222-333</p>
+                </div>
+                <div class="col-sm-2 col02">
+                    <div class="list">
+                        <i class="far fa-address-book"></i>
+                        <br>
+                        <p>List Your Services for FREE</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="buttonControl">
+        <div class="slider1">
+            <div class="container-fluid slider current">
+                <div class="container content">
+                    <div class="row">
+                        <div class="col-sm-10 col11">
+                            <div class="flex1">
+                                <div class="box1">
+                                    <h1>EVENT MANAGEMENT</h1>
+                                </div>
+                                <div class="box2">
+                                    <button onclick="hello()" class="bt1" id="bt1">Sign In</button>
+                                    <button class="bt2" id="bt2">Sign Up</button>
+                                    <div class="popup" id="popup">
+                                        <h3>Log In</h3>
+                                        <p id="close1">&#10005;</p>
+                                        <form id="form1">
+                                            <input type="text" placeholder="User Name" id="userName1">
+                                            <input type="password" placeholder="Password" id="pass1">
+                                            <span id="eye">
+                                                <i class="fas fa-eye" id="eye1" ></i>
+                                                <i class="fas fa-eye-slash" id="eye2"></i>
+                                            </span>
+                                            <input type="submit" value="Log In" id="sb1">
+                                        </form>
+                                        <div class="c1">
+                                        <a href="#">Forgot Password ?</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-12 col12">
+                            <h1>Give your Events a Royal Look</h1>
+                            <button>See How it Works</button>
+                            <form>
+                                <i class="fal fa-map-marker-alt"></i>
+                                <input type="text" placeholder="Find location..." id="location">
+                                <i class="far fa-suitcase"></i>
+                                <input type="text" placeholder="Select Services..." id="services">
+                                <input type="submit" value="Search">
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container-fluid slider">
+                <div class="container content">
+                    <div class="row">
+                        <div class="col-sm-10 col11">
+                            <div class="flex1">
+                                <div class="box1">
+                                    <h1>EVENT MANAGEMENT</h1>
+                                </div>
+                                <div class="box2">
+                                    <button class="bt1" id="bt3">Sign In</button>
+                                    <button class="bt2" id="bt4">Sign Up</button>
+                                    <div class="popup" id="popup3">
+                                        <h3>Log In</h3>
+                                        <p id="close3">&#10005;</p>
+                                        <form>
+                                            <input type="text" placeholder="User Name">
+                                            <input type="password" placeholder="Password">
+                                            <span id="eye">
+                                                <i class="fas fa-eye" id="eye1" ></i>
+                                                <i class="fas fa-eye-slash" id="eye2"></i>
+                                            </span>
+                                            <input type="submit" value="Log In">
+                                        </form>
+                                        <div class="c1">
+                                        <a href="#">Forgot Password ?</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-12 col12">
+                            <h1>Give your Events a Royal Look</h1>
+                            <button>See How it Works</button>
+                            <form>
+                                <i class="fal fa-map-marker-alt"></i>
+                                <input type="text" placeholder="Find location..." id="location">
+                                <i class="far fa-suitcase"></i>
+                                <input type="text" placeholder="Select Services..." id="services">
+                                <input type="submit" value="Search">
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container-fluid slider">
+                <div class="container content">
+                    <div class="row">
+                        <div class="col-sm-10 col11">
+                            <div class="flex1">
+                                <div class="box1">
+                                    <h1>EVENT MANAGEMENT</h1>
+                                </div>
+                                <div class="box2">
+                                    <button class="bt1" id="bt5">Sign In</button>
+                                    <button class="bt2" id="bt6">Sign Up</button>
+                                    <div class="popup" id="popup5">
+                                        <h3>Log In</h3>
+                                        <p id="close5">&#10005;</p>
+                                        <form>
+                                            <input type="text" placeholder="User Name">
+                                            <input type="password" placeholder="Password">
+                                            <span id="eye">
+                                                <i class="fas fa-eye" id="eye1" ></i>
+                                                <i class="fas fa-eye-slash" id="eye2"></i>
+                                            </span>
+                                            <input type="submit" value="Log In">
+                                        </form>
+                                        <div class="c1">
+                                        <a href="#">Forgot Password ?</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-12 col12">
+                            <h1>Give your Events a Royal Look</h1>
+                            <button>See How it Works</button>
+                            <form>
+                                <i class="fal fa-map-marker-alt"></i>
+                                <input type="text" placeholder="Find location..." id="location">
+                                <i class="far fa-suitcase"></i>
+                                <input type="text" placeholder="Select Services..." id="services">
+                                <input type="submit" value="Search">
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="buttons">
+            <button id="prev"><i class="fas fa-arrow-left"></i></button>
+            <button id="next"><i class="fas fa-arrow-right"></i></button>
+        </div>
+    </div>
+    <div class="container services">
+        <div class="row">
+            <div class="col-sm-12">
+                <h1>Our Best Services For You</h1>
+                <div class="col21">
+                    <div class="services1">
+                        <i class="fal fa-school"></i>
+                        <h4>PARTY HALLS</h4>
+                        <P>35 Events | 15 Service Providers</P>
+                    </div>
+                    <div class="services2">
+                        <i class="fas fa-cut"></i>
+                        <h4>SALOONS</h4>
+                        <P>35 Events | 15 Service Providers</P>
+                    </div>
+                    <div class="services3">
+                        <i class="fas fa-utensils-alt"></i>
+                        <h4>CATERING SERVICES</h4>
+                        <P>35 Events | 15 Service Providers</P>
+                    </div>
+                    <div class="services4">
+                        <i class="fas fa-male"></i>
+                        <h4>DRESS DESIGNER</h4>
+                        <P>35 Events | 15 Service Providers</P>
+                    </div>
+                    <div class="services5">
+                        <i class="fas fa-users"></i>
+                        <h4>EVENT ORGANIZERS</h4>
+                        <P>35 Events | 15 Service Providers</P>
+                    </div>
+                    <div class="services6">
+                        <i class="fab fa-accusoft"></i>
+                        <h4>STAGE DECORATION</h4>
+                        <P>35 Events | 15 Service Providers</P>
+                    </div>
+                    <div class="services7">
+                        <i class="fas fa-adjust"></i>
+                        <h4>LIGHTING DECORATION</h4>
+                        <P>35 Events | 15 Service Providers</P>
+                    </div>
+                    <div class="services8">
+                        <i class="fas fa-car-alt"></i>
+                        <h4>RENT A CAR</h4>
+                        <P>35 Events | 15 Service Providers</P>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid how">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-8">
+                    <h1>How Book Services</h1>
+                    <div class="row">
+                        <div class="col-sm-4">
+                            <i class="far fa-search"></i>
+                            <h4>Search Services</h4>
+                            <p>Search, review, short list and share the Best Benquet Halls, Party Halls near you</p>
+                        </div>
+                        <div class="col-sm-4">
+                            <i class="fas fa-dollar-sign"></i>
+                            <h4>Search Services</h4>
+                            <p>Search, review, short list and share the Best Benquet Halls, Party Halls near you</p>
+                        </div>
+                        <div class="col-sm-4">
+                            <i class="far fa-check-square"></i>
+                            <h4>Search Services</h4>
+                            <p>Search, review, short list and share the Best Benquet Halls, Party Halls near you</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <h2>Watch Video</h2>
+                    <img src="./Images/img.jpg">
+                </div>
+            </div>
+        </div>        
+    </div>
+    <div class="container-fluid comment">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-4 col31">
+                    <i class="fas fa-users"></i>
+                    <h4>For Customers</h4>
+                    <p>Searc best banquet halls and party halls near you, review amenities, compare prices, check availability, and get multiple free quotes. Or simply tells us your needs by filling in the inquiry form and we will take care of the rest. </br> </br><b>Event Management</b> is constantly adding new venues with great amount of details in all top localities of major cities in india. Customers have the ability to search the venues based on their specific needs and the occasions. We are listing banquet halls, party halls and venuews that have amenities to celebrate social events like Marriages/Weddings, Receptions, Birthdays, Engagements, Get-Togethers, Naming Cermonies and all kinds of Corporate Events</p>
+                </div>
+                <div class="col-sm-4 col32">
+                    <i class="fas fa-user-tie"></i>
+                    <h4>For Venue Owners</h4>
+                    <p>Our single goal is to increase your occupancy. Bring you more customers from a wide variety of new channels. We will relentlessly promote your propoerties to expand your visibility across multiple new and existing channels. Connectin the new customers to your banquet sales personnel round the clock is what we thrive to achiesve.</p>
+                </div>
+                <div class="col-sm-4 col33">
+                    <h1>Love In Comments</h1>
+                    <img src="./Images/img2.jpg">
+                    <h4>Neelum Muneer</h4>
+                    
+                    <p>We used Event Management to host a cocktail party for our wedding. We used them for finalizing the venue and photographer. It was so easy to find and shortlist a venue thanks to their service. Ankush and Aditya were very helpful and always available at any time of the day to help us with our queries and sort out any issues we faced. They also helped us get the best deals. Strongly recommended in case you want to host any event.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-2 col41">
+                    <h5>Our Story</h5>
+                    <a href="#">About us</a>
+                    <a href="#">Team</a>
+                </div>
+                <div class="col-sm-2 col42">
+                    <h5>Get Inspired</h5>
+                    <a href="#">Testimonial</a>
+                    <a href="#">Blog</a>
+                </div>
+                <div class="col-sm-2 col43">
+                    <h5>Policies</h5>
+                    <a href="#">Terms and Condition</a>
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Cancellation</a>
+                </div>
+                <div class="col-sm-2 col44">
+                    <h5>More</h5>
+                    <a href="#">FAQ</a>
+                    <a href="#">Contact Us</a>
+                </div>
+                <div class="col-sm-4 col45">
+                    <h5>Karachi Office</h5>
+                    <p>Al Baraka House 162 Bangalore Town, Main<br>Shahrah-e-Faisal, Karachi, Pakistan</p>
+                    <p>PABX: +92.(21).3431.5851 <br>Fax: +92.(21).3454.6465<br>Email: info@albaraka.com.pk</p>
+                </div>
+            </div>
+            <hr>
+            <div class="row">
+                <div class="col-sm-6 col46">
+                    <p>Connect with us on:</p>
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-google-plus-g"></i></a>
+                    <a href="#"><i class="fab fa-pinterest-p"></i></a>
+                </div>
+                <div class="col-sm-6 col47">
+                    <a href="#"><i class="fas fa-phone"></i></a>     
+                    <p>111-222-333</p>
+                    <a href="#"><i class="far fa-envelope"></i></a>
+                    <p>customercare@eventmanagement.com</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-12 col48">
+                    <p>All reserved &copy; 2017</p>
+                </div>
+            </div>
+        </div>
+    </div>
+<script src="./js/main.js"></script>
+</body>
+</html>
